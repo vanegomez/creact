@@ -1,8 +1,4 @@
 var NewSkill = React.createClass({
-  getInitialState() {
-    return {name:'', details: ''}
-  },
-
   handleClick() {
     var name    = this.state.name;
     var details = this.state.details;
